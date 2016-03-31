@@ -1,0 +1,14 @@
+package:
+  name: salt-redis
+  version: 1.0.0
+
+build:
+  number: 2
+
+  # Make copies of config files, so they are safe to edit
+  no_link:  srv/*
+
+requirements:
+  run:
+    - salt
+    - redis

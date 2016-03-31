@@ -10,8 +10,7 @@ setup(
     url='http://github.com/srossross/anaconda-salt-toolkit',
     description='Anaconda Salt Toolkit',
     packages=find_packages(),
-    install_requires=['salt',
-                      'pytz'],
+    install_requires=['salt', 'clyent'],
     entry_points={
         'console_scripts': [
             'atool = atool.script:main',
