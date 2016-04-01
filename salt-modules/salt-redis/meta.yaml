@@ -3,7 +3,7 @@ package:
   version: 1.0.0
 
 build:
-  number: 2
+  number: 6
 
   # Make copies of config files, so they are safe to edit
   no_link:  srv/*
